@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <link rel="shortcut icon" href="2137822_food_fruit_organic_vegan_vegetarian_icon.png" type="image/x-icon">
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+        @font-face {
+            font-family: 'bunny';
+            src: url('fonts/EasterBunnyPersonalUse.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'love';
+            src: url('fonts/love larry ttf.ttf') format('truetype');
+            font-weight: normal;
+
+            /* tipos de format()
+            opentype(otf)
+            truetype(ttf)
+            embedded-opentype
+            truetype-aat (apple advanced typography)
+            svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F0F4EF;
+            text-align: justify;
+        }
+
+        h1{
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+            color: #BFCC94;
+        }
+
+        h2{
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: #E6AACE;
+            font-weight: bold;
+        }
+
+        p{
+            color: #0D1821;
+        }
+
+        .btn{
+            background-color: #BFCC94;
+            width: 30vh;
+            height: 3vh;
+            padding-bottom: 1vh;
+            padding-top: 1.5vh;
+            padding-left: 1vh;
+            padding-right: 1vh;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            transition: .3s;
+            margin-top: 3vh;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        a{
+            text-decoration: none;
+            color: #344966;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+
+        .btn:hover{
+            transform: scale(1.1);
+            background-color: #E6AACE;
+        }
+    </style>
+</head>
+<body>
+    <h1>Baixada pelo Dafont.com</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem ratione distinctio quos repellat! A hic modi, temporibus ex possimus laboriosam eum in vero quis assumenda nesciunt, cupiditate ipsa facere. Maxime.</p>
+
+    <h2>Fonte 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius perspiciatis necessitatibus dolores dolorum animi optio. Debitis suscipit odit veniam atque fugiat quis, pariatur voluptatum cupiditate id, rerum autem, itaque at!</p>
+
+    <h2>Tutorial</h2>
+    <p>Baixar a fonte desejada, copiar e colar o arquivo baixado dentro da pasta do projeto e usar a tag @font-face nas primeiras linhas da css. Configurar colocando o nome que você desejar para a font-family e a url certinha com o nome do arquivo</p>
+
+    <div class="btn"><a href="font01.html">Veja a outra parte do estudo de fontes</a></div>
+</body>
+</html>

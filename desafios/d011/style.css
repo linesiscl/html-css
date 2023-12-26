@@ -1,0 +1,16 @@
+.principal{
+    position: relative;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+.astronauta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+}
+
